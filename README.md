@@ -1,7 +1,7 @@
-# 这个网站是用来展示 `Ztl-Article (Ztl的文章)` 的。
-所以，这里没有任何东西，快去看 [文章](https://name317.github.io/ztl-article) 吧！
+# 这个仓库包是用来展示 `Ztl-Article (Ztl的文章)` 的。
+所以，这里没有任何东西，里面的 `html文件` 中的内容不完全可信。
 
 ---
 
-## This page is for share `Ztl-Article (Ztl's Article)`
-But there's nothing here, please see [this article](https://name317.github.io/ztl-article) .
+## This repositorie is for share `Ztl-Article (Ztl's Article)`
+But there's nothing here, `.html files` are not entirely trustworthy.
