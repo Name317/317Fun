@@ -4,4 +4,4 @@
 ---
 
 ## This repositorie is for share `Ztl-Article (Ztl's Article)`
-But there's nothing here, `.html files` are not entirely trustworthy.
+See, nothing here, `.html files` are not entirely trustworthy.
