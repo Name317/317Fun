@@ -1,0 +1,255 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>赵天乐の论文</title>
+<script>
+function showThings() {
+    var selectElement = document.getElementById("mySelect");
+    var selectedValue = selectElement.options[selectElement.selectedIndex].value;
+    var textElement = document.getElementById("textToShow");
+    var inputElement = document.getElementById("inputy");
+    var inputValue = inputElement.value;
+    var radios = document.getElementsByName('myRadio');
+    if (inputValue != "赵天乐" && inputValue != "赵乐乐" && inputValue != "zhaotianle" && inputValue != "zhaolele" && inputValue != "ztl" && inputValue != "Ztl" && inputValue != "Zhaotianle" && inputValue != "Zhaolele" && inputValue != "Z同学" && inputValue != "小Z同学" && inputValue != "小赵同学" && inputValue != "赵同学" && inputValue != "赵" && inputValue != "小赵" && inputValue != "小Z" && inputValue != "Z" && inputValue != "" && inputValue != "z同学" && inputValue != "小z同学" && inputValue != "小z" && inputValue != "乐乐侠" && inputValue != "z" && !(radios[2].checked)){
+    	if (selectedValue === "option1") {
+            alert("欢迎，" + inputValue + "！");
+	    var text = document.getElementById('text-to-show');
+  	    text.style.display = 'block';
+    	} else if (selectedValue === "option2") {
+            alert("好呀~~，" + inputValue + "！");
+	    var text = document.getElementById('text-to-show');
+  	    text.style.display = 'block';
+    	} else if (selectedValue === "option3") {
+            alert("行！加的越多越好！！！" + inputValue + "！！");
+	    var text = document.getElementById('text-to-show');
+	    text.style.display = 'block';
+    	} else if (selectedValue === "option4") {
+            alert("慢走，" + inputValue + "！");
+	    var text = document.getElementById('text-to-show');
+  	    text.style.display = 'block';
+    	} else if (selectedValue === "option5" || radios[2].checked) {
+    	    alert("滚！！！赵天乐！！！！马上关闭这个页面！！！！！");
+	    window.close();
+    	} else {
+    	    alert("请先选择一个选项再进行验证！" + inputValue + "！");
+    	}
+    } else if (inputValue != "") {
+	alert("你是赵天乐！！！！！滚！！！马上关闭这个页面！！！！！");
+	window.close();
+    } else {
+	alert("请先输入你的名字，签订条例！");
+    }
+
+}
+function ptOK() {
+    var inputElement = document.getElementById("inputy");
+    var inputValue = inputElement.value;
+    if (inputValue != "乐乐侠" && inputValue != "赵天乐" && inputValue != "赵小乐" && inputValue != "赵乐乐" && inputValue != "zhaotianle" && inputValue != "zhaolele" && inputValue != "ztl" && inputValue != "Ztl" && inputValue != "Zhaotianle" && inputValue != "Zhaolele" && inputValue != "Z同学" && inputValue != "小Z同学" && inputValue != "小赵同学" && inputValue != "赵同学" && inputValue != "赵" && inputValue != "小赵" && inputValue != "小Z" && inputValue != "Z" && inputValue != "" && inputValue != "z同学" && inputValue != "小z同学" && inputValue != "小z" && inputValue != "z"){
+	alert("OK！");
+        alert("你好，" + inputValue + "！");
+    } else if (inputValue != "") {
+        alert("哟，是乐乐侠啊！");
+    } else if (inputValue != "") {
+        alert("？");
+    } else {
+	alert("请先输入你的名字，签订条例！");
+    }
+}
+function ptS() {
+    alert("感谢你的建议！");
+}
+function BClo(){
+    window.close();
+}
+</script>
+<style>
+.myDiv1 {
+  border: 8px outset #6df7ff;
+  background-color: #c8f7ff;
+  text-align: left;
+}
+.myDiv2 {
+  border: 8px outset #cdced3;
+  background-color: #ffffff;
+  text-align: center;
+}
+.treeyDiv {
+  border: 8px outset #ff938e;
+  background-color: #ffe5e7;
+  text-align: center;
+}
+.confuse {
+  border: 8px outset lightblue;
+  background-color: lightblue;
+  text-align: center;
+}
+.nowrap {
+    whitespace: nowrap;
+}
+</style>
+</head>
+<body style="background-image: url('https://cdn.luogu.com.cn/upload/image_hosting/n958y1vp.png'); background-size: cover; background-repeat: no-repeat;">
+<input type = "button" value = "跳转回主页" onclick = "window.location.href='https://name317.github.io'">
+<hr>
+<div class = "treeyDiv">
+<h3>在阅读本篇论文前，请先在下面的框框中填入你的姓名，保证不要让赵天乐拿到这个文件<acronym title="嘻嘻">（但是可以让他看到）</acronym>，并记录你来看这篇文章要干什么。</h3>
+<h4><acronym title="赵天乐，不许看这篇论文！！！！！！！！！！！！！">在看到这篇论文前，你得先做一个身份验证，验证你不是赵天乐。</acronym></h4>
+<input id = "inputy"><strong> </strong><input type="button" value = "我保证遵守以上条例" onclick="ptOK()">
+<h4>你要来这里干什么：</h4>
+<select id="mySelect">
+<option value="option1">我就是来看这篇文章的</option>
+<option value="option2">我来看看这篇论文写得好不好</option>
+<option value="option3">我来给这篇文章加点料~~~</option>
+<option value="option4">我是路人</option>
+<option value="option5">我是赵天乐</option>
+</select>
+<h4>你为什么要来看这篇论文：</h4>
+<input type="checkbox" name="whyt" value="突然想要看看">突然想要看看
+<input type="checkbox" name="whyt" value="别人推荐">别人推荐
+<input type="checkbox" name="whyt" value="网上搜到">网上搜到
+<input type="checkbox" name="whyt" value="流言散播">流言散播
+<input type="checkbox" name="whyt" value="修改迭代">修改迭代
+<input type="checkbox" name="whyt" value="评价此文章">评价此文章
+<input type="checkbox" name="whyt" value="之前看过，好看再来">之前看过，好看再来
+<input type="checkbox" name="whyt" value="没啥">没啥
+<br>
+<form id = "roof">
+<input type="radio" name="myRadio" value="我是作者本人">我是作者本人
+<input type="radio" name="myRadio" value="我是读者">我是读者
+<input type="radio" name="myRadio" value="我是赵天乐本人">我是赵天乐本人
+</form>
+<br>
+<strong> </strong><button onclick="showThings()">验证</button>
+<br>
+<br>
+</div>
+<div class = "confuse">
+<h3><acronym title="赵天乐的头像"><img src="https://cdn.luogu.com.cn/upload/usericon/738566.png" alt="Zhaotianle" width="50"></acronym><strong>  <a href = "https://www.luogu.com.cn/user/738566"><acronym title="神秘的赵天乐">研究对象 --- Zhao Tianle</acronym></a></strong></h3>
+</div>
+<div id="text-to-show" style="display:none;" class = "myDiv1">
+<br>
+<h1>赵天乐の论文</h1>
+<h2>1. 赵天乐是什么性别</h2>
+<div class = "myDiv2">
+众所周知，世界上有 <strong>五种</strong> 基本性别：男人，女人，<acronym title="？？？">人妖，雌雄共体，无性别人</acronym>。
+<br>
+<acronym title="我靠！！！">世界上从这五种基本性别衍生成 <strong>50种</strong> 性别，而美国为了展示他们国家的<strong>“性别开放”</strong>，从这 <strong>50种</strong> 性别中 <strong>又衍生成了</strong> <strong>97种</strong> 性别！！！</acronym>
+<br>
+又众所周知，美国的佛罗里达州中的人以 <font color = "#0000ff">“沃尔玛塑料袋”</font> 性别居多。
+<br>
+据研究表现，赵天乐在<font color = "#ff00ff">DNA检测</font>后，发现他属于“沃尔玛塑料袋”（第97种性别）的性别。（
+</div>
+<h2>2. 赵天乐爱吃什么</h2>
+<div class = "myDiv2">
+	众所周知，赵天乐在上课时最喜欢上厕所，嘴里还经常嘟囔着<font color = "#ca9b00"><strong>“吃饭去”</strong></font>。
+<br>
+	厕所里的饭只有<strong><font color = "#ff0000">草莓塔</font>配<font color = "#ffbb00">冰红茶</font></strong>，所以赵天乐爱吃<strong><font color = "#ff0000">草莓塔</font>配<font color = "#ffbb00">冰红茶</font></strong>。
+</div>
+<h2>3. 赵天乐的智商</h2>
+<div class = "myDiv2">
+	赵天乐的智商自然是正常的，不过他有时候令人摸不着头脑。传言他每天都会 <strong><font color = "#ff0000">WA</font> 一道<font color = "#ff5847">红题（入门题）</font></strong>，不过我们这种论文是肯定不能加入“传言”的。
+<br>
+	赵天乐擅长数学和编程，所以我们可以担保他是很 <font color = "#ff0000"><strong>聪明</strong></font> 的。
+</div>
+<h2>4. 关于赵天乐的传闻</h2>
+<div class = "myDiv2">
+	下面是 <strong>黑盒技术开发高级组</strong> 对于 <strong>赵天乐之传言</strong> 的整理：
+<br>
+	<mark style="background-color:#ff5952; color:black;">1. 赵天乐从两岁就开始使用电脑了。</mark>
+<br>
+	（真的吗？）
+<br>
+<br>
+	<mark>2. 赵天乐从三岁就开始抄题解了。</mark>
+<br>
+	（我敢肯定这可能是真的）
+<br>
+<br>
+	<mark style="background-color:#4fa3ff; color:black;">3. 赵天乐从二年级就开始学习 C++ 了。</mark>
+<br>
+	（真的）
+<br>
+<br>
+	<mark style="background-color:#ff5952; color:black;">4. 他学 C++ 学到五年级都没考过 CSP - J。</mark>
+<br>
+	（没错，不要疑惑）
+<br>
+<br>
+	<mark>5. 赵天乐的血型是 O 型血。</mark>
+<br>
+	（真人の肯定）
+<br>
+<br>
+	<mark style="background-color:#4fa3ff; color:black;">6. 赵天乐是个满级小孩。</mark>
+<br>
+	（是的）
+<br>
+<br>
+	<mark style="background-color:#ff5952; color:black;">7. 赵天乐曾经向 <strong>Lg2307</strong> 要过精神损失费。</mark>
+<br>
+	（Yes，原因是他和 Lg2307，YXY317Coder，w15575121298, zhoujunchen 吵过架，原因是赵天乐<font color = "#ff0000">使用了 ChatGPT 来生成代码</font>，赵天乐吵不过）
+<br>
+<br>
+	<mark>8. 赵天乐曾经使用过 AI 来生成代码来 A 题。</mark>
+<br>
+	（是的，被多人真实了）
+<br>
+<br>
+	<mark style="background-color:#4fa3ff; color:black;">9. 赵天乐<strong>抄题解</strong></mark>
+<br>
+	（现在他可能还在抄）
+<br>
+<br>
+	<mark style="background-color:#ff5952; color:black;">10. 赵天乐<strong>女装过</strong></mark>
+<br>
+	（没有，但是他<strong>夹过</strong>）
+<br>
+<br>
+	<mark>11. 赵天乐有一个两千块钱的儿童手机</mark>
+<br>
+	（有，但是那个 <strong>是儿童手机**</strong>）
+<br>
+<br>
+	<mark style="background-color:#4fa3ff; color:black;">12. 赵天乐<strong>自恋</strong></mark>
+<br>
+	（不是 <strong>自恋</strong>，他是 <strong>很自恋</strong>）
+<br>
+<br>
+	<mark style="background-color:#ff5952; color:black;">13. 赵天乐<strong>喜欢装</strong></mark>
+<br>
+	（他非常 <strong>喜欢装</strong>，但是仅限于线下他认识的人。）
+<br>
+        <i>“‘兄弟’，能不能加我团队？”</i>
+<br>
+        <i>“‘兄弟’，互关呗！”</i>
+<br>
+        <i>“‘兄弟’，走啊！”</i>
+<br>
+        事实上，只要是他认识的男孩，他就叫他“兄弟”。
+<br>
+</div>
+<h2>5. 赵天乐长什么样子</h2>
+<div class = "myDiv2">
+<h3>放大图！</h3>
+<h3>赵天乐真帅！</h3>
+<acronym title="赵天乐在地铁上"><img src="https://cdn.luogu.com.cn/upload/image_hosting/9zvtz4af.png" alt="赵天乐在地铁上" width="300"></acronym><strong>  </strong><acronym title="赵天乐在信奥班上"><img src="https://cdn.luogu.com.cn/upload/image_hosting/cjcidhpl.png" alt="赵天乐在信奥班上" width="300"></acronym><strong>  </strong><acronym title="赵天乐摆pos"><img src="https://cdn.luogu.com.cn/upload/image_hosting/uw0q3r4n.png" alt="赵天乐摆pos" width="300"></acronym>
+</div>
+<div class = "treeyDiv">
+<label for="slider">文章评分（0 到 10）：</label>
+<input type="range" min="0" max="10" value="10" id="slider" onchange="updateSliderValue(this.value)"><strong>  </strong><strong id="sliderValue">10分</strong>
+<script>
+function updateSliderValue(value) {
+  document.getElementById("sliderValue").innerText = value + "分";
+}
+</script>
+<h2><acronym title="给我们一些建议吧，虽然我们看不到这个框里的内容。">建议</acronym>：</h2>
+<textarea id="description" name="description" rows="4" cols="50">
+你们这个网页论文太棒了，
+我要大大的奖赏你们！
+（V你50啊）
+</textarea>
+<input type="button" value="提交" onclick = "ptS()"><strong> </strong><input type="button" value="关闭网页" onclick = "BClo()">
+</div>
+</div>
+</body>
+</html>
